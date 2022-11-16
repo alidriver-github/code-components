@@ -38,9 +38,9 @@ import { Reveal } from "./components/Reveal";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
-      id: "aPZu6epBt5EaEYRgMF1d6z",
+      id: "oecnAkzkXUeFVepakf1iFX",
       token:
-        "TwiTi9V7cZzJn5j4jSpwZizlBPrDiQQh0T3hybnGtbPaHCsxBnv26Tp53atqTywSvXuXxpYpDa5Y2fqA",
+        "OzoUev6N7m8DH2Zn0QZC4bNPj3ImIaTJBPOAnrkglpETgZJsJ7qqy9BQcWs8iWsZZUnjycQTo1D0oF0AzVkSw",
     },
   ],
   preview: true,
