@@ -8,10 +8,18 @@ import YouTube from "react-youtube";
 import {
   RadialChart,
   VerticalBarSeries,
-  XAxis,
   XYPlot,
-  YAxis,
 } from "react-vis";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 import { GoogleMap } from "@react-google-maps/api";
 import {
   Button as MuiButton,
@@ -146,32 +154,7 @@ PLASMIC.registerComponent(RadialChart, {
   importName: "RadialChart",
 });
 
-PLASMIC.registerComponent(XYPlot, {
-  name: "XY Plot",
-  props: {
-    height: "number",
-    width: "number",
-    xDomain: "object",
-    yDomain: "object",
-    children: {
-      type: "slot",
-      allowedComponents: ["X Axis", "Y Axis", "Bar Series"],
-    },
-  },
-  importName: "XYPlot",
-});
 
-PLASMIC.registerComponent(XAxis, {
-  name: "X Axis",
-  props: {},
-  importName: "XAxis",
-});
-
-PLASMIC.registerComponent(YAxis, {
-  name: "Y Axis",
-  props: {},
-  importName: "YAxis",
-});
 
 PLASMIC.registerComponent(VerticalBarSeries, {
   name: "Bar Series",
