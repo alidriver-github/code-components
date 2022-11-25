@@ -1,5 +1,10 @@
 /** @format */
 
+/** By ALi**/
+
+import { Divider } from '@chakra-ui/react';
+
+/**  BY ali **/
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 import { Alert, Carousel, Collapse, Menu, Slider } from "antd";
 import MenuItem from "antd/lib/menu/MenuItem";
@@ -57,6 +62,15 @@ export const PLASMIC = initPlasmicLoader({
 //
 // Registration of code components
 //
+
+// By ali
+PLASMIC.registerComponent(Divider, {
+  name: "Divider",
+  props: {
+    orientation: "string",
+  },
+});
+// by ali
 
 PLASMIC.registerComponent(Slider, {
   name: "Slider",
